@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2216A79519A9D74E005F4967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2216A79419A9D74E005F4967 /* Foundation.framework */; };
+		2216A79719A9D74E005F4967 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2216A79619A9D74E005F4967 /* CoreGraphics.framework */; };
+		2216A79919A9D74E005F4967 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2216A79819A9D74E005F4967 /* UIKit.framework */; };
+		2216A79F19A9D74E005F4967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2216A79D19A9D74E005F4967 /* InfoPlist.strings */; };
+		2216A7A119A9D74E005F4967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A7A019A9D74E005F4967 /* main.m */; };
+		2216A7A519A9D74E005F4967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A7A419A9D74E005F4967 /* AppDelegate.m */; };
+		2216A7A819A9D74E005F4967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2216A7A619A9D74E005F4967 /* Main.storyboard */; };
+		2216A7AB19A9D74E005F4967 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A7AA19A9D74E005F4967 /* ViewController.m */; };
+		2216A7AD19A9D74E005F4967 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2216A7AC19A9D74E005F4967 /* Images.xcassets */; };
+		2216A7B419A9D74E005F4967 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2216A7B319A9D74E005F4967 /* XCTest.framework */; };
+		2216A7B519A9D74E005F4967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2216A79419A9D74E005F4967 /* Foundation.framework */; };
+		2216A7B619A9D74E005F4967 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2216A79819A9D74E005F4967 /* UIKit.framework */; };
+		2216A7BE19A9D74E005F4967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2216A7BC19A9D74E005F4967 /* InfoPlist.strings */; };
+		2216A7C019A9D74E005F4967 /* FXBlurViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A7BF19A9D74E005F4967 /* FXBlurViewDemoTests.m */; };
+		2216A7CA19A9D83A005F4967 /* QRCodeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2216A7C919A9D83A005F4967 /* QRCodeImage.png */; };
+		2216A7CC19A9DE7C005F4967 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2216A7CB19A9DE7C005F4967 /* 2.png */; };
+		F811012C97EF416DAE95A111 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F51072B5CC4A2AB8119CBB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2216A7B719A9D74E005F4967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2216A78919A9D74D005F4967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2216A79019A9D74E005F4967;
+			remoteInfo = FXBlurViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2216A79119A9D74E005F4967 /* FXBlurViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXBlurViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2216A79419A9D74E005F4967 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2216A79619A9D74E005F4967 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2216A79819A9D74E005F4967 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2216A79C19A9D74E005F4967 /* FXBlurViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FXBlurViewDemo-Info.plist"; sourceTree = "<group>"; };
+		2216A79E19A9D74E005F4967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2216A7A019A9D74E005F4967 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2216A7A219A9D74E005F4967 /* FXBlurViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXBlurViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2216A7A319A9D74E005F4967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2216A7A419A9D74E005F4967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2216A7A719A9D74E005F4967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2216A7A919A9D74E005F4967 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2216A7AA19A9D74E005F4967 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2216A7AC19A9D74E005F4967 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2216A7B219A9D74E005F4967 /* FXBlurViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXBlurViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2216A7B319A9D74E005F4967 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2216A7BB19A9D74E005F4967 /* FXBlurViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FXBlurViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		2216A7BD19A9D74E005F4967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2216A7BF19A9D74E005F4967 /* FXBlurViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXBlurViewDemoTests.m; sourceTree = "<group>"; };
+		2216A7C919A9D83A005F4967 /* QRCodeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCodeImage.png; sourceTree = "<group>"; };
+		2216A7CB19A9DE7C005F4967 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		28F51072B5CC4A2AB8119CBB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		88048D7B98EA408CB29D4A72 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2216A78E19A9D74E005F4967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2216A79719A9D74E005F4967 /* CoreGraphics.framework in Frameworks */,
+				2216A79919A9D74E005F4967 /* UIKit.framework in Frameworks */,
+				2216A79519A9D74E005F4967 /* Foundation.framework in Frameworks */,
+				F811012C97EF416DAE95A111 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2216A7AF19A9D74E005F4967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2216A7B419A9D74E005F4967 /* XCTest.framework in Frameworks */,
+				2216A7B619A9D74E005F4967 /* UIKit.framework in Frameworks */,
+				2216A7B519A9D74E005F4967 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2216A78819A9D74D005F4967 = {
+			isa = PBXGroup;
+			children = (
+				2216A7CB19A9DE7C005F4967 /* 2.png */,
+				2216A7C919A9D83A005F4967 /* QRCodeImage.png */,
+				2216A79A19A9D74E005F4967 /* FXBlurViewDemo */,
+				2216A7B919A9D74E005F4967 /* FXBlurViewDemoTests */,
+				2216A79319A9D74E005F4967 /* Frameworks */,
+				2216A79219A9D74E005F4967 /* Products */,
+				88048D7B98EA408CB29D4A72 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2216A79219A9D74E005F4967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2216A79119A9D74E005F4967 /* FXBlurViewDemo.app */,
+				2216A7B219A9D74E005F4967 /* FXBlurViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2216A79319A9D74E005F4967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2216A79419A9D74E005F4967 /* Foundation.framework */,
+				2216A79619A9D74E005F4967 /* CoreGraphics.framework */,
+				2216A79819A9D74E005F4967 /* UIKit.framework */,
+				2216A7B319A9D74E005F4967 /* XCTest.framework */,
+				28F51072B5CC4A2AB8119CBB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2216A79A19A9D74E005F4967 /* FXBlurViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2216A7A319A9D74E005F4967 /* AppDelegate.h */,
+				2216A7A419A9D74E005F4967 /* AppDelegate.m */,
+				2216A7A619A9D74E005F4967 /* Main.storyboard */,
+				2216A7A919A9D74E005F4967 /* ViewController.h */,
+				2216A7AA19A9D74E005F4967 /* ViewController.m */,
+				2216A7AC19A9D74E005F4967 /* Images.xcassets */,
+				2216A79B19A9D74E005F4967 /* Supporting Files */,
+			);
+			path = FXBlurViewDemo;
+			sourceTree = "<group>";
+		};
+		2216A79B19A9D74E005F4967 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2216A79C19A9D74E005F4967 /* FXBlurViewDemo-Info.plist */,
+				2216A79D19A9D74E005F4967 /* InfoPlist.strings */,
+				2216A7A019A9D74E005F4967 /* main.m */,
+				2216A7A219A9D74E005F4967 /* FXBlurViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2216A7B919A9D74E005F4967 /* FXBlurViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2216A7BF19A9D74E005F4967 /* FXBlurViewDemoTests.m */,
+				2216A7BA19A9D74E005F4967 /* Supporting Files */,
+			);
+			path = FXBlurViewDemoTests;
+			sourceTree = "<group>";
+		};
+		2216A7BA19A9D74E005F4967 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2216A7BB19A9D74E005F4967 /* FXBlurViewDemoTests-Info.plist */,
+				2216A7BC19A9D74E005F4967 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2216A79019A9D74E005F4967 /* FXBlurViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2216A7C319A9D74E005F4967 /* Build configuration list for PBXNativeTarget "FXBlurViewDemo" */;
+			buildPhases = (
+				72C0E3F01E5848748AD90B7A /* Check Pods Manifest.lock */,
+				2216A78D19A9D74E005F4967 /* Sources */,
+				2216A78E19A9D74E005F4967 /* Frameworks */,
+				2216A78F19A9D74E005F4967 /* Resources */,
+				3501A3A0E606440E94BDA84B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXBlurViewDemo;
+			productName = FXBlurViewDemo;
+			productReference = 2216A79119A9D74E005F4967 /* FXBlurViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2216A7B119A9D74E005F4967 /* FXBlurViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2216A7C619A9D74E005F4967 /* Build configuration list for PBXNativeTarget "FXBlurViewDemoTests" */;
+			buildPhases = (
+				2216A7AE19A9D74E005F4967 /* Sources */,
+				2216A7AF19A9D74E005F4967 /* Frameworks */,
+				2216A7B019A9D74E005F4967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2216A7B819A9D74E005F4967 /* PBXTargetDependency */,
+			);
+			name = FXBlurViewDemoTests;
+			productName = FXBlurViewDemoTests;
+			productReference = 2216A7B219A9D74E005F4967 /* FXBlurViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2216A78919A9D74D005F4967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = martin;
+				TargetAttributes = {
+					2216A7B119A9D74E005F4967 = {
+						TestTargetID = 2216A79019A9D74E005F4967;
+					};
+				};
+			};
+			buildConfigurationList = 2216A78C19A9D74D005F4967 /* Build configuration list for PBXProject "FXBlurViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2216A78819A9D74D005F4967;
+			productRefGroup = 2216A79219A9D74E005F4967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2216A79019A9D74E005F4967 /* FXBlurViewDemo */,
+				2216A7B119A9D74E005F4967 /* FXBlurViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2216A78F19A9D74E005F4967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2216A7AD19A9D74E005F4967 /* Images.xcassets in Resources */,
+				2216A79F19A9D74E005F4967 /* InfoPlist.strings in Resources */,
+				2216A7CC19A9DE7C005F4967 /* 2.png in Resources */,
+				2216A7A819A9D74E005F4967 /* Main.storyboard in Resources */,
+				2216A7CA19A9D83A005F4967 /* QRCodeImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2216A7B019A9D74E005F4967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2216A7BE19A9D74E005F4967 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3501A3A0E606440E94BDA84B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C0E3F01E5848748AD90B7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2216A78D19A9D74E005F4967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2216A7AB19A9D74E005F4967 /* ViewController.m in Sources */,
+				2216A7A519A9D74E005F4967 /* AppDelegate.m in Sources */,
+				2216A7A119A9D74E005F4967 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2216A7AE19A9D74E005F4967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2216A7C019A9D74E005F4967 /* FXBlurViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2216A7B819A9D74E005F4967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2216A79019A9D74E005F4967 /* FXBlurViewDemo */;
+			targetProxy = 2216A7B719A9D74E005F4967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2216A79D19A9D74E005F4967 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2216A79E19A9D74E005F4967 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2216A7A619A9D74E005F4967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2216A7A719A9D74E005F4967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2216A7BC19A9D74E005F4967 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2216A7BD19A9D74E005F4967 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2216A7C119A9D74E005F4967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2216A7C219A9D74E005F4967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2216A7C419A9D74E005F4967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88048D7B98EA408CB29D4A72 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FXBlurViewDemo/FXBlurViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "FXBlurViewDemo/FXBlurViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2216A7C519A9D74E005F4967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88048D7B98EA408CB29D4A72 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FXBlurViewDemo/FXBlurViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "FXBlurViewDemo/FXBlurViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2216A7C719A9D74E005F4967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FXBlurViewDemo.app/FXBlurViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FXBlurViewDemo/FXBlurViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FXBlurViewDemoTests/FXBlurViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2216A7C819A9D74E005F4967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FXBlurViewDemo.app/FXBlurViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FXBlurViewDemo/FXBlurViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "FXBlurViewDemoTests/FXBlurViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2216A78C19A9D74D005F4967 /* Build configuration list for PBXProject "FXBlurViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2216A7C119A9D74E005F4967 /* Debug */,
+				2216A7C219A9D74E005F4967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2216A7C319A9D74E005F4967 /* Build configuration list for PBXNativeTarget "FXBlurViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2216A7C419A9D74E005F4967 /* Debug */,
+				2216A7C519A9D74E005F4967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2216A7C619A9D74E005F4967 /* Build configuration list for PBXNativeTarget "FXBlurViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2216A7C719A9D74E005F4967 /* Debug */,
+				2216A7C819A9D74E005F4967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2216A78919A9D74D005F4967 /* Project object */;
+}
